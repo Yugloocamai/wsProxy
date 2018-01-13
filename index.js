@@ -24,15 +24,6 @@ if(args.h || args.help) {
 // Load modules
 modules.load('allow');
 
-
-// Parse allowed ip:port option into array
-// Overrides the default allowed.js file
-// TODO: remove this allowed.js file, and write a standard way to handle this allowed_ip option.
-if(args.a || args.allow) {
-	allowed = (args.a || args.allow).split(',');
-}
-
-
 // Init
 main({
 	port: args.port || args.p || process.env.PORT || 5999,
