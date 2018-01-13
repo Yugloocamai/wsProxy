@@ -8,7 +8,7 @@ This is a websocket to tcp proxy, written in node.js. It is dynamic and will pro
 Installation
 ----------
 ```
-npm install wsproxy -g
+npm install @usestrict/wsproxy -g
 ```
 
 
